@@ -4,7 +4,7 @@ Esse repositório reúne uma série de projetos que fiz com alguns colegas do IM
 ## Sobre o Projeto
 Este projeto foi desenvolvido como trabalho final para a disciplina de Aprendizado de Máquina 1 do IMPA Tech. O objetivo central é investigar o cenário de remuneração de profissionais de tecnologia no Brasil. O projeto é dividido em duas grandes etapas: a coleta automatizada de dados (Web Scraping) e a aplicação de modelos preditivos e de clusterização (Machine Learning).
 
-![Capa](assets/capa2.png)
+![Capa](assets/capa1.png)
 
 1. Coleta de Dados (Web Scraping)
 Os dados foram extraídos da plataforma Salário Transparente, onde profissionais compartilham anonimamente suas remunerações.
