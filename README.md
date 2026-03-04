@@ -3,4 +3,6 @@ Esse repositório reúne uma série de projetos que fiz com alguns colegas do IM
 
 Vídeo do Scraping sendo feito automaticamente com o Selenium
 
-![Video](\assets\scraping_selenium.mp4)
+![Video](\assets\a.gif)
+
+![Video](\assets\scraping_selenium_(1).mp4)
