@@ -4,7 +4,7 @@ Esse repositório reúne uma série de projetos que fiz com alguns colegas do IM
 ## Sobre o Projeto
 O objetivo inicial desse projeto foi investigar o cenário de remuneração de cientistas de dados no Brasil. Porém uma das etapas do projeto, usar modelos de Machine Learning para previsão de salário com base em outros preditores, foi feito com dados da profissão de desenvolvedor, por haver uma maior quantidade de dados.
 
-O projeto se divide em três grandes partes:
+O projeto se divide em três grandes etapas:
 
 1. Coleta de Dados;
 2. Análise Exploratória e Machine Learning;
@@ -12,20 +12,26 @@ O projeto se divide em três grandes partes:
 
 Por enquanto, vou falar mais sobre as duas primeiras.
 
-## Coleta de Dados (Web Scraping)
 ![Capa](assets/capa1.png)
 
-Os dados foram extraídos da plataforma Salário Transparente, onde profissionais compartilham anonimamente suas remunerações.
-
-Abordagem Técnica:
-
-Utilização da biblioteca Selenium para automação do navegador, permitindo interações dinâmicas como inserção de texto, simulação de cliques (para fechar modais/pop-ups) e rolagem contínua da página (lazy loading).
-
-Processamento do HTML extraído utilizando BeautifulSoup para localizar e estruturar as informações dos "cards" de vagas (cargo, empresa, salário base, benefícios, modelo de trabalho, etc.).
-
-O script está consolidado no arquivo Scraping.ipynb, capaz de exportar os dados brutos para formato CSV de forma automatizada.
+## 1. Coleta de Dados (Web Scraping)
 
 Vídeo do Scraping sendo feito automaticamente com o Selenium
+
+![scraping_gif](assets/scraping_selenium.gif)
+
+Os dados foram extraídos da plataforma [Salário Transparente](https://salariotransparente.com.br/), onde profissionais compartilham anonimamente suas remunerações.
+
+# Abordagem Técnica:
+
+Utilizei a biblioteca `Selenium` para automação do navegador, pois permmite:
+- Interações dinâmicas como inserção de texto;
+- Simulação de cliques para fechar pop-ups;
+- Rolagem contínua da página (Lazy loading).
+
+Utilizei também a biblioteca `BeautifulSoup` para processar o HTML extraído de forma que as informações dos cards das vagas estivessem estruturas.
+
+O script se encontra no arquivo `scraping.py`, porém o `scraping.ipynb` provê uma explicação mais detalhada do papel dessas bibliotecas.
 
 ![scraping_gif](assets/scraping_selenium.gif)
 
