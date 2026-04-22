@@ -2,11 +2,19 @@
 Esse repositório reúne uma série de projetos que fiz com alguns colegas do IMPATech. O projeto abrange desde a coleta dos dados até a análise final, foram utilizados conceitos aprendidos na matéria de Machine Learning e nossa intenção é explicar da forma mais clara possível cada etapa do processo.
 
 ## Sobre o Projeto
-Este projeto foi desenvolvido como trabalho final para a disciplina de Aprendizado de Máquina 1 do IMPA Tech. O objetivo central é investigar o cenário de remuneração de profissionais de tecnologia no Brasil. O projeto é dividido em duas grandes etapas: a coleta automatizada de dados (Web Scraping) e a aplicação de modelos preditivos e de clusterização (Machine Learning).
+O objetivo inicial desse projeto foi investigar o cenário de remuneração de cientistas de dados no Brasil. Porém uma das etapas do projeto, usar modelos de Machine Learning para previsão de salário com base em outros preditores, foi feito com dados da profissão de desenvolvedor, por haver uma maior quantidade de dados.
 
+O projeto se divide em três grandes partes:
+
+1. Coleta de Dados;
+2. Análise Exploratória e Machine Learning;
+3. Implementação ou Deploy (ainda em desenvolvimento...)
+
+Por enquanto, vou falar mais sobre as duas primeiras.
+
+## Coleta de Dados (Web Scraping)
 ![Capa](assets/capa1.png)
 
-1. Coleta de Dados (Web Scraping)
 Os dados foram extraídos da plataforma Salário Transparente, onde profissionais compartilham anonimamente suas remunerações.
 
 Abordagem Técnica:
