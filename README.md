@@ -1,7 +1,7 @@
 # Projeto Observatório: Análise e Predição de Salários de Desenvolvedores no Brasil
 Esse repositório reúne uma série de projetos que fiz com alguns colegas do IMPATech. O projeto abrange desde a coleta dos dados até a análise final, foram utilizados conceitos aprendidos na matéria de Machine Learning e nossa intenção é explicar da forma mais clara possível cada etapa do processo.
 
-## Sobre o Projeto
+# Sobre o Projeto
 O objetivo inicial desse projeto foi investigar o cenário de remuneração de cientistas de dados no Brasil. Porém uma das etapas do projeto, usar modelos de Machine Learning para previsão de salário com base em outros preditores, foi feito com dados da profissão de desenvolvedor, por haver uma maior quantidade de dados.
 
 O projeto se divide em três grandes etapas:
@@ -22,7 +22,7 @@ Vídeo do Scraping sendo feito automaticamente com o Selenium
 
 Os dados foram extraídos da plataforma [Salário Transparente](https://salariotransparente.com.br/), onde profissionais compartilham anonimamente suas remunerações.
 
-# Abordagem Técnica:
+### Abordagem Técnica:
 
 Utilizei a biblioteca `Selenium` para automação do navegador, pois permmite:
 - Interações dinâmicas como inserção de texto;
