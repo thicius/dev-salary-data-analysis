@@ -46,7 +46,9 @@ Modelagem para prever o nível do desenvolvedor (Júnior, Pleno, Sênior) utiliz
 ### Clusterização (K-Means & PCA):
 Aprendizado não supervisionado para segmentar e agrupar vagas por similaridade técnica e financeira, revelando fronteiras e sobreposições reais no mercado de trabalho.
 
-![Seção_2](assets/capa2.png)
+<p align="center">
+  <img src="assets/capa2.png" alt="Seção_2">
+</p>
 
 # Como Executar
 
