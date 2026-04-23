@@ -244,7 +244,7 @@ def salvar_csv(dados, profissao):
 
 # Execução principal
 if __name__ == "__main__":
-    profissao = "Enfermeiro"
+    profissao = "Cientista de Dados"
     dados = coletar_salarios(profissao)
     if dados:
         salvar_csv(dados, profissao)
